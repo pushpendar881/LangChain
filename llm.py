@@ -1,5 +1,5 @@
 from langchain_huggingface import HuggingFaceEndpoint
-from secretkey import sec_key
+from secretkey import sec_key #import your API key 
 
 import os
 from langchain.llms import OpenAI
